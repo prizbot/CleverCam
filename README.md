@@ -44,3 +44,16 @@ CleverCam/
 ├── config.yaml                             # Configuration file for parameters like threshold values
 ├── requirements.txt                        # Dependencies for the project
 └── README.md
+```
+
+## Usage
+
+- **Crowd Detection**: Run `crowd_detector.py` to detect crowds in a video frame.
+- **Weapon Detection**: Run `weapon_detector.py` to detect weapons in a video frame.
+- **Alert System**: Use `alert.py` to set up alerts that trigger upon detection.
+
+## Configuration
+
+- You can adjust the detection thresholds and other parameters in `config.yaml`.
+- The results from training, including confusion matrices and precision-recall curves, are available in the `training_results` directory under `weapon_detection/`.
+ection
